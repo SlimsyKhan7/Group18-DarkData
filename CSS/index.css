@@ -1,0 +1,27 @@
+.nav {
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    gap: 5rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #8E5CBB;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 32px;
+    letter-spacing: 4px;
+    font-family: "Roboto Mono", monospace;
+}
+
+.nav-link:hover {
+    opacity: 0.5;
+    cursor: pointer;
+
+
+}
