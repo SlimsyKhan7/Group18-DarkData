@@ -64,6 +64,9 @@ html {
 }
 
 .transition {
+  position: absolute;
+  top: 20rem;
+  z-index: -1;
 }
 
 .dropbtn {
