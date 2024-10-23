@@ -63,6 +63,19 @@ html {
   padding-bottom: 11rem;
 }
 
+.header-smaller{
+  color: #8e5cbb;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 50px;
+  letter-spacing: 4px;
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  max-width: 750px;
+  position: relative;
+  z-index: 1;
+}
+
 .transition {
   position: absolute;
   top: 20rem;
