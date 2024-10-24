@@ -4,21 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./../CSS/index.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
-      rel="stylesheet"
-    />
     <script src="./../Javascript/index.js"></script>
-    <title></title>
+    <title>Main Page</title>
   </head>
   <body>
-    <div>
+    <div class="nav-header">
       <nav class="nav">
         <img
           class="dotoutline"
-          src="../Imgs/dotoutline.svg"
+          src="../Imgs/dotoutline.jpg"
           width="550"
           height="600"
           alt="dotoutline"
@@ -30,8 +24,12 @@
             width="270"
             alt=""
           />
+<<<<<<< HEAD
       </div>
       <div class="nav-links">
+=======
+        </div>
+>>>>>>> 5a3bd09233d0bdedd6a5ace36888f03c58750e44
         <div class="nav-links">
           <a class="nav-link" href="./index.html"> Home </a>
           <div class="dropdown">
@@ -57,14 +55,17 @@
 
             <div id="myDropdown" class="dropdown-content">
               <a href="./datawarehousing.html">Data WareHousing</a>
-              <a href=""></a>
+              <a href="./ReducingDarkData.html">Reducing dark data</a>
+              <a href="./environmental.html">Evironmental Impact</a>
+              <a href="./cloudstorage.html">Cloud Storage</a>
               <a href="./financial-impacts.html">
                 Financial Impacts of Dark Data</a
               >
+              <a href="./positive-DD-usage.html">Positive Usage</a>
             </div>
           </div>
-          <a class="nav-link"> Biliography </a>
-          <a class="nav-link"> Group Dynamics </a>
+          <a href="./bibliography.html" class="nav-link"> Biliography </a>
+          <a class="nav-link"> Group </a>
         </div>
       </nav>
       <section class="header">
@@ -75,19 +76,77 @@
       </section>
       <img
         class="transition"
-        src="../Imgs/transition.svg"
+        src="../Imgs/transition.jpg"
         width="100%"
         alt=""
       />
     </div>
     <section class="section-1-inside">
-      <h2>Dark Data Issues</h2>
+      <h2 class="issues-header">Dark Data Issues</h2>
       <div class="issues">
-        <div class="issues-container"></div>
-        <div></div>
-        <div></div>
+        <div class="issues-container">
+          <div>
+            <img width="35" height="35" src="../Imgs/trash.svg" alt="trash" />
+          </div>
+          <h3>Waste</h3>
+          <p>
+            Dark data consumes storage, power, and resources, leading to
+            increased operational costs with minimal benefits.
+          </p>
+          <section class="bottom-circle"></section>
+        </div>
+        <div class="issues-container">
+          <div>
+            <img
+              width="35"
+              height="35"
+              src="../Imgs/link-broken.svg"
+              alt="link broken"
+            />
+          </div>
+          <h3>Risk</h3>
+          <p>
+            Unused data can harbor sensitive information, creating security
+            vulnerabilities and compliance risks for organizations.
+          </p>
+          <section class="bottom-circle"></section>
+        </div>
+        <div class="issues-container">
+          <div>
+            <img
+              width="35"
+              height="35"
+              src="../Imgs/hourglass.svg"
+              alt="hourglass"
+            />
+          </div>
+          <h3>Inefficiency</h3>
+          <p>
+            Managing and storing irrelevant data diverts focus and resources,
+            reducing efficiency in data-driven decision-making.
+          </p>
+          <section class="bottom-circle"></section>
+        </div>
       </div>
     </section>
+    <img
+      class="transition2"
+      width="100%"
+      src="../Imgs/transition2.svg"
+      alt="transition2"
+    />
+    <footer>
+      <div class="footer">
+        <div class="footer-links">
+          <a href="./index.html"> Home </a>
+          <a href="./bibliography.html"> Biliography </a>
+          <a href=""> Group </a>
+        </div>
+        <div class="footer-copyright">
+          <p>&copy; 2024 Your Company Name. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
   </body>
   <script src="../Javascript/index.js"></script>
 </html>
