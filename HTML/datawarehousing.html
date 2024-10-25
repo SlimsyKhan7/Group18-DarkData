@@ -10,7 +10,7 @@
     <nav class="nav">
       <img
         class="dotoutline"
-        src="../Imgs/dotoutline.svg"
+        src="../Imgs/dotoutline.jpg"
         width="550"
         height="600"
         alt="dotoutline"
@@ -32,30 +32,146 @@
               id="myDropdownArrow2"
               class="show dropdown-arrow2"
               src="../Imgs/arrow1.svg"
-              height="25"
-              width="25"
+              height="20"
+              width="20"
               alt=""
             />
             <img
               id="myDropdownArrow"
               class="dropdown-arrow"
               src="../Imgs/arrow2.svg"
-              height="25"
-              width="25"
+              height="20"
+              width="20"
               alt=""
             />
           </button>
 
           <div id="myDropdown" class="dropdown-content">
             <a href="./datawarehousing.html">Data WareHousing</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
+            <a href="./ReducingDarkData.html">Reducing dark data</a>
+            <a href="./environmental.html">Evironmental Impact</a>
+            <a href="./cloudstorage.html">Cloud Storage</a>
+            <a href="./financial-impacts.html">
+              Financial Impacts of Dark Data</a
+            >
           </div>
         </div>
-        <a class="nav-link"> Biliography </a>
-        <a class="nav-link"> Group Dynamics </a>
+        <a href="./bibliography.html" class="nav-link"> Biliography </a>
+        <a class="nav-link"> Group </a>
       </div>
     </nav>
+    <section class="data-warehousing">
+      <!-- Main Header -->
+      <div class="data-warehousing-heading">
+        <h1 class="data-warehousing-header">Data Warehousing</h1>
+
+        <!-- Introduction -->
+        <p class="data-warehousing-header-paragraph">
+          Data Warehousing is an extremely useful modern data management system.
+          It creates an effective way to organize and analyze data, helping
+          businesses store substantial amounts of data.
+        </p>
+      </div>
+
+      <!-- Pros Section -->
+      <div class="data-warehousing-pros">
+        <h2>Pros</h2>
+
+        <h3>Efficient</h3>
+        <p>
+          Data Warehousing stores multiple sets of data into one central data
+          store. It can hold large amounts of data, far more than traditional
+          databases.
+        </p>
+
+        <h3>Analytical</h3>
+        <p>
+          Data warehouses excel at analyzing data, offering numerous use cases
+          such as: AI and machine learning, Business intelligence, Data
+          integration and Industry-specific applications
+        </p>
+        <h3>Environmentally Friendly</h3>
+        <p>
+          Modern cloud data warehouses reduce the need for companies to maintain
+          their own data centers, thereby minimizing environmental impact.
+        </p>
+      </div>
+
+      <!-- Types of Data Warehousing -->
+      <div class="data-warehousing-types">
+        <h2>Types</h2>
+        <h3>Cloud Data Warehouse</h3>
+        <p>
+          Cloud data warehouses are designed to operate on the web. Offered as a
+          service, they provide large companies with efficient data storage
+          solutions, managed by an external provider. This approach allows
+          companies to avoid the cost and effort of creating less effective
+          in-house solutions.
+        </p>
+
+        <h3>On-premises Data Warehouse</h3>
+        <p>
+          On-premises data warehouses require the purchase of a license and the
+          installation of a data warehouse at the organization's location. This
+          more costly option is suitable for entities like governments or banks
+          that require higher data regulation and control.
+        </p>
+      </div>
+
+      <!-- Architecture -->
+      <div class="data-warehousing-architecture">
+        <h2>Architecture</h2>
+
+        <h3>Bottom Tier</h3>
+        <p>
+          The bottom tier stores data from multiple sources in a single data
+          warehouse server. Data is processed using one of two methods: ETL
+          (extract, transform, load) or ELT (extract, load, transform),
+          preparing it for further analysis.
+        </p>
+
+        <h3>Middle Tier</h3>
+        <p>
+          This tier employs an analytics engine to process large volumes of
+          structured and unstructured data, often using OLAP (online analytical
+          processing). OLAP has three types:
+        </p>
+        <ul>
+          <li>
+            <strong>ROLAP (Relational OLAP):</strong> Allows for examining
+            relational databases from multiple perspectives.
+          </li>
+          <li>
+            <strong>MOLAP (Multidimensional OLAP):</strong> Uses array-based
+            storage for multidimensional data analysis.
+          </li>
+          <li>
+            <strong>HOLAP (Hybrid OLAP):</strong> Combines features of ROLAP and
+            MOLAP for flexible analysis.
+          </li>
+        </ul>
+
+        <h3>Top Tier</h3>
+        <p>
+          This tier features a user-friendly interface or reporting tool,
+          enabling users to analyze company data. Self-service business
+          intelligence helps users generate reports, identify opportunities, and
+          locate process inefficiencies.
+        </p>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-other">
+        <div class="footer-links">
+          <a href="./index.html"> Home </a>
+          <a href="./bibliography.html"> Biliography </a>
+          <a href=""> Group </a>
+        </div>
+        <div class="footer-copyright">
+          <p>&copy; 2024 Your Company Name. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
   </body>
   <script src="../Javascript/index.js"></script>
 </html>
