@@ -156,7 +156,7 @@ html {
 
 .section-1-inside {
   background-color: #8e5cbb;
-  padding-bottom:  12rem;
+  padding-bottom: 12rem;
 }
 
 .issues {
@@ -164,7 +164,7 @@ html {
   justify-content: center;
   align-items: center;
   gap: 8rem;
-  padding: 1.5rem 10rem;
+  padding: 1.5rem 0;
   position: relative;
 }
 
@@ -188,6 +188,7 @@ html {
   align-items: center;
   justify-content: center;
   height: 25rem;
+  max-width: 20rem;
 }
 
 .issues-container h3 {
@@ -242,7 +243,7 @@ footer {
   height: 40rem;
 }
 
-.footer  {
+.footer {
   padding-top: 30rem;
   position: relative;
   display: flex;
@@ -284,3 +285,31 @@ footer {
   padding: 1rem;
 }
 
+@media (max-width: 1500px) {
+  .nav-links {
+    gap: 2.5rem;
+  }
+
+  .nav-link {
+    font-size: 26px;
+  }
+
+  .issues {
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 1150px) {
+  .issues {
+    flex-direction: column;
+    gap: 5rem;
+  }
+
+  .issues-container {
+    position: relative;
+  }
+
+  .issues-container div {
+    top: -25px;
+  }
+}
