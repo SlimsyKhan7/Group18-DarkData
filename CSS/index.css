@@ -337,7 +337,6 @@ footer {
   max-width: 750px;
   position: relative;
   z-index: 1;
-  padding: 2rem;
 }
 
 .data-warehousing-pros {
@@ -495,6 +494,109 @@ footer {
   z-index: 1;
 }
 
+
+/* Data Data Reduction Page */
+
+.dark-data-reduction {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.dark-data-reduction-heading {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  flex-direction: column;
+}
+
+.dark-data-reduction-header {
+  color: #8e5cbb;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 32px;
+  letter-spacing: 4px;
+  font-family: "Roboto Mono", monospace;
+  text-align: end;
+  max-width: 750px;
+  position: relative;
+  z-index: 1;
+}
+
+.dark-data-reduction-header-paragraph {
+  color: #8e5cbb;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 32px;
+  letter-spacing: 4px;
+  font-family: "Roboto Mono", monospace;
+  text-align: end;
+  max-width: 750px;
+  position: relative;
+  z-index: 1;
+}
+
+.dark-data-reduction-methods,
+.dark-data-reduction-silos,
+.dark-data-reduction-discovery-tools,
+.dark-data-reduction-identifying {
+  gap: 1rem;
+  padding: 1.5rem 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+.dark-data-reduction-methods h2,
+.dark-data-reduction-silos h2,
+.dark-data-reduction-discovery-tools h2,
+.dark-data-reduction-identifying h2 {
+  color: #8e5cbb;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 32px;
+  letter-spacing: 4px;
+  font-family: "Roboto Mono", monospace;
+  text-align: start;
+  max-width: 750px;
+  position: relative;
+  z-index: 1;
+}
+
+.dark-data-reduction-methods h3,
+.dark-data-reduction-silos h3,
+.dark-data-reduction-discovery-tools h3,
+.dark-data-reduction-identifying h3 {
+  color: #8e5cbb;
+  font-size: 26px;
+  font-weight: 900;
+  line-height: 32px;
+  letter-spacing: 4px;
+  font-family: "Roboto Mono", monospace;
+  text-align: start;
+  max-width: 750px;
+  position: relative;
+  z-index: 1;
+}
+
+.dark-data-reduction-methods p,
+.dark-data-reduction-silos p,
+.dark-data-reduction-discovery-tools p,
+.dark-data-reduction-identifying p {
+  color: #8e5cbb;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 32px;
+  letter-spacing: 4px;
+  font-family: "Roboto Mono", monospace;
+  text-align: start;
+  max-width: 750px;
+  position: relative;
+  z-index: 1;
+}
 
 
 
