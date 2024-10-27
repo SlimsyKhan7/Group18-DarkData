@@ -494,7 +494,6 @@ footer {
   z-index: 1;
 }
 
-
 /* Data Data Reduction Page */
 
 .dark-data-reduction {
@@ -598,7 +597,153 @@ footer {
   z-index: 1;
 }
 
+/* Financial Impact */
 
+.financial-impacts-dark-data-header {
+  color: #8e5cbb;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 32px;
+  letter-spacing: 4px;
+  font-family: "Roboto Mono", monospace;
+  text-align: end;
+  max-width: 750px;
+  position: relative;
+  z-index: 1;
+}
+
+.financial-impacts-dark-data-heading {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  flex-direction: column;
+}
+
+.financial-impacts-dark-data {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.financial-impacts-dark-data-header-paragraph {
+  color: #8e5cbb;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 32px;
+  letter-spacing: 4px;
+  font-family: "Roboto Mono", monospace;
+  text-align: end;
+  max-width: 750px;
+  position: relative;
+  z-index: 1;
+  padding: 2rem;
+}
+
+.financial-impacts-dark-data-netflix,
+.financial-impacts-dark-data-breach,
+.financial-impacts-dark-data-equifax {
+  gap: 1rem;
+  padding: 1.5rem 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+.financial-impacts-dark-data-netflix h2,
+.financial-impacts-dark-data-breach h2,
+.financial-impacts-dark-data-equifax h2 {
+  color: #8e5cbb;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 32px;
+  letter-spacing: 4px;
+  font-family: "Roboto Mono", monospace;
+  text-align: start;
+  max-width: 750px;
+  position: relative;
+  z-index: 1;
+}
+
+.financial-impacts-dark-data-netflix p,
+.financial-impacts-dark-data-breach p,
+.financial-impacts-dark-data-equifax p {
+  color: #8e5cbb;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 32px;
+  letter-spacing: 4px;
+  font-family: "Roboto Mono", monospace;
+  text-align: start;
+  max-width: 750px;
+  position: relative;
+  z-index: 1;
+}
+
+/* Bibliography */
+
+.bibliography {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.bibliography-header {
+  color: #8e5cbb;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 32px;
+  letter-spacing: 4px;
+  font-family: "Roboto Mono", monospace;
+  text-align: end;
+  padding-top: 10rem;
+}
+
+.bibliography-section {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.data-warehousing.bibliography-section {
+  align-items: end;
+  text-align: end;
+}
+
+.bibliography-section h2 {
+  color: #8e5cbb;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 32px;
+  letter-spacing: 4px;
+  font-family: "Roboto Mono", monospace;
+  text-align: start;
+  max-width: 750px;
+}
+
+.references-list {
+  list-style-type: none;
+  padding-left: 0;
+  color: #8e5cbb;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 32px;
+  letter-spacing: 4px;
+  font-family: "Roboto Mono", monospace;
+}
+
+.references-list a {
+  color: #8e5cbb;
+}
+
+.references-list a:hover {
+  opacity: 0.5;
+}
 
 /* Media Queries */
 
@@ -630,5 +775,3 @@ footer {
     top: -25px;
   }
 }
-
-
