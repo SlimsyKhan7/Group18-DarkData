@@ -1,118 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Environmental Impacts of Dark Data</title>
-    <link rel="stylesheet" href="./../CSS/index.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./../CSS/index.css" />
+  </head>
+  <body>
     <nav class="nav">
+      <img
+        class="dotoutline"
+        src="../Imgs/dotoutline.jpg"
+        width="550"
+        height="600"
+        alt="dotoutline"
+      />
+      <div>
         <img
-          class="dotoutline"
-          src="../Imgs/dotoutline.jpg"
-          width="550"
-          height="600"
-          alt="dotoutline"
+          src="../Imgs/Dark_Data-removebg-preview.png"
+          height="270"
+          width="270"
+          alt=""
         />
-        <div>
-          <img
-            src="../Imgs/Dark_Data-removebg-preview.png"
-            height="270"
-            width="270"
-            alt=""
-          />
-        </div>
-        <div class="nav-links">
-          <a class="nav-link" href="./index.html"> Home </a>
-          <div class="dropdown">
-            <button onclick="myFunction()" class="dropbtn nav-link">
-              Key Topics
-              <img
-                id="myDropdownArrow2"
-                class="show dropdown-arrow2"
-                src="../Imgs/arrow1.svg"
-                height="20"
-                width="20"
-                alt=""
-              />
-              <img
-                id="myDropdownArrow"
-                class="dropdown-arrow"
-                src="../Imgs/arrow2.svg"
-                height="20"
-                width="20"
-                alt=""
-              />
-            </button>
+      </div>
+      <div class="nav-links">
+        <a class="nav-link" href="./index.html"> Home </a>
+        <div class="dropdown">
+          <button onclick="myFunction()" class="dropbtn nav-link">
+            Key Topics
+            <img
+              id="myDropdownArrow2"
+              class="show dropdown-arrow2"
+              src="../Imgs/arrow1.svg"
+              height="20"
+              width="20"
+              alt=""
+            />
+            <img
+              id="myDropdownArrow"
+              class="dropdown-arrow"
+              src="../Imgs/arrow2.svg"
+              height="20"
+              width="20"
+              alt=""
+            />
+          </button>
 
-            <div id="myDropdown" class="dropdown-content">
-              <a href="./datawarehousing.html">Data WareHousing</a>
-              <a href="./ReducingDarkData.html">Reducing dark data</a>
-              <a href="./environmental.html">Evironmental Impact</a>
-              <a href="./cloudstorage.html">Cloud Storage</a>
-              <a href="./financial-impacts.html">
-                Financial Impacts of Dark Data</a
-              >
-              <a href="./positive-DD-usage.html">Positive Usage</a>
-            </div>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="./datawarehousing.html">Data WareHousing</a>
+            <a href="./ReducingDarkData.html">Reducing dark data</a>
+            <a href="./environmental.html">Evironmental Impact</a>
+            <a href="./cloudstorage.html">Cloud Storage</a>
+            <a href="./financial-impacts.html">
+              Financial Impacts of Dark Data</a
+            >
+            <a href="./positive-DD-usage.html">Positive Usage</a>
           </div>
-          <a href="./bibliography.html" class="nav-link"> Biliography </a>
-          <a class="nav-link"> Group </a>
         </div>
-      </nav>
-      <section class="environmental-impacts-data-centers">
-  <!-- Main Header -->
-  <div class="environmental-impacts-heading">
-    <h1 class="environmental-impacts-header">Environmental Impacts of Data Centres and Dark Data</h1>
+        <a href="./bibliography.html" class="nav-link"> Biliography </a>
+        <a class="nav-link"> Group </a>
+      </div>
+    </nav>
+    <section class="environmental-impacts-data-centers">
+      <!-- Main Header -->
+      <div class="environmental-impacts-heading">
+        <h1 class="environmental-impacts-header">
+          Environmental Impacts of Data Centres and Dark Data
+        </h1>
 
-    <!-- Introduction -->
-    <p class="environmental-impacts-introduction">
-      Data centres account for approximately 1% of global greenhouse gas emissions, according to the International Energy Agency (IEA, 2024). There are several key factors contributing to this.
-    </p>
-  </div>
+        <!-- Introduction -->
+        <p class="environmental-impacts-introduction">
+          Data centres account for approximately 1% of global greenhouse gas
+          emissions, according to the International Energy Agency (IEA, 2024).
+          There are several key factors contributing to this.
+        </p>
+      </div>
 
-  <!-- Continuous Operation and Power Consumption Section -->
-  <div class="environmental-impacts-operation">
-    <h2>Continuous Operation and Power Consumption</h2>
-    <p>
-      Data centres operate non-stop, 365 days a year, requiring a constant power supply to run. This power often comes from non-renewable sources such as oil and coal, further contributing to the CO₂ output of these data centres. In 2022, the IEA estimated that all global data centres consumed more than 300 TWh of electricity annually. The World Economic Forum states that “companies produce 1,300,000,000 gigabytes of dark data a day.” This exponential increase of unused data causes companies to construct more and more data centres, increasing their CO₂ output and putting unnecessary strain on power grids.
-    </p>
-  </div>
+      <!-- Continuous Operation and Power Consumption Section -->
+      <div class="environmental-impacts-operation">
+        <h2>Continuous Operation and Power Consumption</h2>
+        <p>
+          Data centres operate non-stop, 365 days a year, requiring a constant
+          power supply to run. This power often comes from non-renewable sources
+          such as oil and coal, further contributing to the CO₂ output of these
+          data centres. In 2022, the IEA estimated that all global data centres
+          consumed more than 300 TWh of electricity annually. The World Economic
+          Forum states that “companies produce 1,300,000,000 gigabytes of dark
+          data a day.” This exponential increase of unused data causes companies
+          to construct more and more data centres, increasing their CO₂ output
+          and putting unnecessary strain on power grids.
+        </p>
+      </div>
 
-  <!-- Cooling Requirements Section -->
-  <div class="environmental-impacts-cooling">
-    <h2>Cooling Requirements</h2>
-    <p>
-      Cooling is another significant source of energy consumption in data centres. During operation, data centres generate a large amount of heat, and without an adequate cooling system, they would be unable to function efficiently. These cooling systems further contribute to their high energy consumption and environmental footprint. Many data centres use water cooling systems, whether evaporative cooling—where water evaporates using hot air, causing the air to cool down—or immersion cooling, which submerges the full server bank in a special liquid. These methods use large amounts of water, amounting to almost 5 million gallons per day, according to Becky Mckay at Green Match.
-    </p>
-  </div>
+      <!-- Cooling Requirements Section -->
+      <div class="environmental-impacts-cooling">
+        <h2>Cooling Requirements</h2>
+        <p>
+          Cooling is another significant source of energy consumption in data
+          centres. During operation, data centres generate a large amount of
+          heat, and without an adequate cooling system, they would be unable to
+          function efficiently. These cooling systems further contribute to
+          their high energy consumption and environmental footprint. Many data
+          centres use water cooling systems, whether evaporative cooling—where
+          water evaporates using hot air, causing the air to cool down—or
+          immersion cooling, which submerges the full server bank in a special
+          liquid. These methods use large amounts of water, amounting to almost
+          5 million gallons per day, according to Becky Mckay at Green Match.
+        </p>
+      </div>
 
-  <!-- Land Usage Section -->
-  <div class="environmental-impacts-land-usage">
-    <h2>Land Usage</h2>
-    <p>
-      Data centres take up large areas of land, with an average facility being around 100,000 square feet, leading to the shift of natural habitats and plant life. The largest example is China's Telecom Inner Mongolia Information Park, which is the largest data centre in the world, spanning an astonishing 10.7 million square feet and requiring 150 megawatts of electricity per hour, consuming approximately 1.3 TWh annually (World's Top Data Centres, 2023). The construction of these massive data centres leads to deforestation and the destruction of animal habitats, causing biodiversity loss that has terrible effects on the environment, including increased CO₂ levels in the atmosphere.
-    </p>
-  </div>
+      <!-- Land Usage Section -->
+      <div class="environmental-impacts-land-usage">
+        <h2>Land Usage</h2>
+        <p>
+          Data centres take up large areas of land, with an average facility
+          being around 100,000 square feet, leading to the shift of natural
+          habitats and plant life. The largest example is China's Telecom Inner
+          Mongolia Information Park, which is the largest data centre in the
+          world, spanning an astonishing 10.7 million square feet and requiring
+          150 megawatts of electricity per hour, consuming approximately 1.3 TWh
+          annually (World's Top Data Centres, 2023). The construction of these
+          massive data centres leads to deforestation and the destruction of
+          animal habitats, causing biodiversity loss that has terrible effects
+          on the environment, including increased CO₂ levels in the atmosphere.
+        </p>
+      </div>
 
-  <!-- Environmental Cost of Constructing a Data Centre Section -->
-  <div class="environmental-impacts-construction">
-    <h2>Environmental Cost of Constructing a Data Centre</h2>
-    <p>
-      However, the operation of these data centres is not the only factor responsible for their environmental impact. The construction of these massive facilities requires significant amounts of cement, steel, and other building materials, all of which consume large amounts of energy. According to Chatham House, cement production alone accounts for 8% of global CO₂ emissions annually, making it one of the most polluting industries in the world. Cement is created by heating limestone to high temperatures, emitting large amounts of CO₂. Additionally, hundreds or even thousands of construction workers, many relying on gas-powered vehicles, need to commute to the building site. The construction of these data centres can last several years, further worsening their overall environmental impact. Furthermore, data centres generate significant amounts of electronic waste, which is notoriously difficult to recycle. They create this waste as the technology used to manage data centres constantly advances and requires frequent replacement. Data centres are responsible for 4% of yearly e-waste produced, generating around two million tons annually, according to Green Revolution Cooling.
-    </p>
-  </div>
+      <!-- Environmental Cost of Constructing a Data Centre Section -->
+      <div class="environmental-impacts-construction">
+        <h2>Environmental Cost of Constructing a Data Centre</h2>
+        <p>
+          However, the operation of these data centres is not the only factor
+          responsible for their environmental impact. The construction of these
+          massive facilities requires significant amounts of cement, steel, and
+          other building materials, all of which consume large amounts of
+          energy. According to Chatham House, cement production alone accounts
+          for 8% of global CO₂ emissions annually, making it one of the most
+          polluting industries in the world. Cement is created by heating
+          limestone to high temperatures, emitting large amounts of CO₂.
+          Additionally, hundreds or even thousands of construction workers, many
+          relying on gas-powered vehicles, need to commute to the building site.
+          The construction of these data centres can last several years, further
+          worsening their overall environmental impact. Furthermore, data
+          centres generate significant amounts of electronic waste, which is
+          notoriously difficult to recycle. They create this waste as the
+          technology used to manage data centres constantly advances and
+          requires frequent replacement. Data centres are responsible for 4% of
+          yearly e-waste produced, generating around two million tons annually,
+          according to Green Revolution Cooling.
+        </p>
+      </div>
 
-  <!-- What Can Be Done Section -->
-  <div class="environmental-impacts-solutions">
-    <h2>What Can Be Done?</h2>
-    <p>
-      Many of the largest tech companies are starting to adopt clean energy solutions, with AWS, Microsoft, Meta, and Google being the top four buyers of clean energy from 2010-2021, according to the IEA. This shift will significantly help reduce the carbon footprint of data centres.
-    </p>
-  </div>
-</section>
-</body>
+      <!-- What Can Be Done Section -->
+      <div class="environmental-impacts-solutions">
+        <h2>What Can Be Done?</h2>
+        <p>
+          Many of the largest tech companies are starting to adopt clean energy
+          solutions, with AWS, Microsoft, Meta, and Google being the top four
+          buyers of clean energy from 2010-2021, according to the IEA. This
+          shift will significantly help reduce the carbon footprint of data
+          centres.
+        </p>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-other">
+        <div class="footer-links">
+          <a href="./index.html"> Home </a>
+          <a href="./bibliography.html"> Biliography </a>
+          <a href=""> Group </a>
+        </div>
+        <div class="footer-copyright">
+          <p>&copy; 2024 Your Company Name. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
 
-<script src="../Javascript/index.js"></script>
+  <script src="../Javascript/index.js"></script>
 </html>
