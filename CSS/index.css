@@ -745,6 +745,189 @@ footer {
   opacity: 0.5;
 }
 
+/* Environmental */
+
+.environmental-impacts-data-centers {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.environmental-impacts-heading {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  flex-direction: column;
+}
+
+.environmental-impacts-header {
+  color: #8e5cbb;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 32px;
+  letter-spacing: 4px;
+  font-family: "Roboto Mono", monospace;
+  text-align: end;
+  max-width: 750px;
+  position: relative;
+  z-index: 1;
+}
+
+.environmental-impacts-introduction {
+  color: #8e5cbb;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 32px;
+  letter-spacing: 4px;
+  font-family: "Roboto Mono", monospace;
+  text-align: end;
+  max-width: 750px;
+  position: relative;
+  z-index: 1;
+}
+
+.environmental-impacts-operation,
+.environmental-impacts-cooling,
+.environmental-impacts-land-usage,
+.environmental-impacts-construction,
+.environmental-impacts-solutions {
+  gap: 1rem;
+  padding: 1.5rem 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+.environmental-impacts-operation h2,
+.environmental-impacts-cooling h2,
+.environmental-impacts-land-usage h2,
+.environmental-impacts-construction h2,
+.environmental-impacts-solutions h2 {
+  color: #8e5cbb;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 32px;
+  letter-spacing: 4px;
+  font-family: "Roboto Mono", monospace;
+  text-align: start;
+  max-width: 750px;
+  position: relative;
+  z-index: 1;
+}
+
+.environmental-impacts-operation p,
+.environmental-impacts-cooling p,
+.environmental-impacts-land-usage p,
+.environmental-impacts-construction p,
+.environmental-impacts-solutions p {
+  color: #8e5cbb;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 32px;
+  letter-spacing: 4px;
+  font-family: "Roboto Mono", monospace;
+  text-align: start;
+  max-width: 750px;
+  position: relative;
+  z-index: 1;
+}
+
+/* Positive Uses of Dark Data Page */
+
+.positive-uses-dark-data {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.positive-uses-heading {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  flex-direction: column;
+}
+
+.positive-uses-header {
+  color: #8e5cbb;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 32px;
+  letter-spacing: 4px;
+  font-family: "Roboto Mono", monospace;
+  text-align: end;
+  max-width: 750px;
+  position: relative;
+  z-index: 1;
+}
+
+.positive-uses-introduction {
+  color: #8e5cbb;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 32px;
+  letter-spacing: 4px;
+  font-family: "Roboto Mono", monospace;
+  text-align: end;
+  max-width: 750px;
+  position: relative;
+  z-index: 1;
+}
+
+.positive-uses-organizing,
+.positive-uses-productive,
+.positive-uses-training-ai,
+.positive-uses-optimizing-manufacturing,
+.positive-uses-improving-customer-experience,
+.positive-uses-social-media {
+  gap: 1rem;
+  padding: 1.5rem 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+.positive-uses-organizing h2,
+.positive-uses-productive h2,
+.positive-uses-training-ai h2,
+.positive-uses-optimizing-manufacturing h2,
+.positive-uses-improving-customer-experience h2,
+.positive-uses-social-media h2 {
+  color: #8e5cbb;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 32px;
+  letter-spacing: 4px;
+  font-family: "Roboto Mono", monospace;
+  text-align: start;
+  max-width: 750px;
+  position: relative;
+  z-index: 1;
+}
+
+.positive-uses-organizing p,
+.positive-uses-productive p,
+.positive-uses-training-ai p,
+.positive-uses-optimizing-manufacturing p,
+.positive-uses-improving-customer-experience p,
+.positive-uses-social-media p {
+  color: #8e5cbb;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 32px;
+  letter-spacing: 4px;
+  font-family: "Roboto Mono", monospace;
+  text-align: start;
+  max-width: 750px;
+  position: relative;
+  z-index: 1;
+}
+
 /* Media Queries */
 
 @media (max-width: 1500px) {
