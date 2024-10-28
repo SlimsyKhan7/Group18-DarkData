@@ -59,6 +59,7 @@ html {
   max-width: 750px;
   position: relative;
   z-index: 1;
+  padding-bottom: 2.5rem;
 }
 
 .header {
