@@ -1376,6 +1376,12 @@ footer {
   }
 }
 
+@media (max-width: 1350px) {
+  .header-heading {
+    padding-top: 10rem;
+  }
+}
+
 @media (max-width: 1150px) {
   .issues {
     flex-direction: column;
@@ -1388,5 +1394,11 @@ footer {
 
   .issues-container div {
     top: -25px;
+  }
+}
+
+@media (max-width: 1060px) {
+  .nav-links {
+    flex-direction: column;
   }
 }
