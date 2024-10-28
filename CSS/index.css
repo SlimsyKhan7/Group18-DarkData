@@ -1331,6 +1331,14 @@ footer {
   z-index: 1;
 }
 
+.case-study {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
 /* Milestones Table */
 .milestones-table {
   width: 100%;
