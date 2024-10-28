@@ -1136,8 +1136,132 @@ footer {
 
 
 /* Dark data history and examples */
+.DarkDataHistoryAndExamples{
+ 
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+ 
+}
+
+.DarkDataHistoryHeader {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  flex-direction: column;
+}
+
+.DarkDataHistoryTitle {
+  color: #8e5cbb;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 32px;
+  letter-spacing: 4px;
+  font-family: "Roboto Mono", monospace;
+  text-align: end;
+  max-width: 750px;
+  position: relative;
+  z-index: 1;
+}
+
+.Dark-Data-History-introduction {
+  color: #8e5cbb;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 32px;
+  letter-spacing: 4px;
+  font-family: "Roboto Mono", monospace;
+  text-align: end;
+  max-width: 750px;
+  position: relative;
+  z-index: 1;
+}
+
+.DarkDataAppearance h2 {
+  color: #8e5cbb;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 32px;
+  letter-spacing: 4px;
+  font-family: "Roboto Mono", monospace;
+  text-align: start;
+  max-width: 750px;
+  position: relative;
+  z-index: 1;
+}
+
+/*lists styling*/
+
+.DarkDataFactors li,
+.DarkDataStructureTypes li,
+.DarkDataGenerationTypes li,
+.DarkDataAppearance li{
+  color: #8e5cbb;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 32px;
+  letter-spacing: 4px;
+  font-family: "Roboto Mono", monospace;
+  text-align: start;
+  max-width: 750px;
+  position: relative;
+  z-index: 1;
+}
+
+.DarkDataHistoryAndExamples h2 {
+  color: #8e5cbb;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 32px;
+  letter-spacing: 4px;
+  font-family: "Roboto Mono", monospace;
+  text-align: start;
+  max-width: 750px;
+  position: relative;
+  z-index: 1;
+}
+
+.DarkDataHistoryAndExamples h3 {
+  color: #8e5cbb;
+  font-size: 26px;
+  font-weight: 900;
+  line-height: 32px;
+  letter-spacing: 4px;
+  font-family: "Roboto Mono", monospace;
+  text-align: start;
+  max-width: 750px;
+  position: relative;
+  z-index: 1;
+}
+
+.DarkDataHistoryAndExamples h2 {
+  color: #8e5cbb;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 32px;
+  letter-spacing: 4px;
+  font-family: "Roboto Mono", monospace;
+  text-align: start;
+  max-width: 750px;
+  position: relative;
+  z-index: 1;
+}
+
+.DarkDataAppearance,
+.DarkDataStructureTypes{
+  justify-content: start;
+  align-items: start;
+}
 
 
+.DarkDataGenerationTypes,
+.dark-data-reduction-identifying,
+.dark-data-reduction-silos{
+  justify-content: end;
+  align-items: end;
+}
 
 /* Media Queries */
 
