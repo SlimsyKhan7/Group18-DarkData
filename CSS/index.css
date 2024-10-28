@@ -535,6 +535,22 @@ footer {
   z-index: 1;
 }
 
+.dark-data-reduction-identifying-solutions1,
+.dark-data-reduction-discovery-tools,
+.dark-data-reduction-methods{
+  justify-content: start;
+  align-items: start;
+}
+
+
+.dark-data-reduction-identifying-solutions2,
+.dark-data-reduction-identifying,
+.dark-data-reduction-silos{
+  justify-content: end;
+  align-items: end;
+}
+.dark-data-reduction-identifying-solutions1,
+.dark-data-reduction-identifying-solutions2,
 .dark-data-reduction-methods,
 .dark-data-reduction-silos,
 .dark-data-reduction-discovery-tools,
@@ -544,8 +560,7 @@ footer {
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: start;
-  align-items: start;
+  
 }
 
 .dark-data-reduction-methods h2,
@@ -563,11 +578,10 @@ footer {
   position: relative;
   z-index: 1;
 }
-
+.dark-data-reduction-identifying-solutions1 h3,
 .dark-data-reduction-methods h3,
 .dark-data-reduction-silos h3,
-.dark-data-reduction-discovery-tools h3,
-.dark-data-reduction-identifying h3 {
+.dark-data-reduction-discovery-tools h3 {
   color: #8e5cbb;
   font-size: 26px;
   font-weight: 900;
@@ -579,7 +593,8 @@ footer {
   position: relative;
   z-index: 1;
 }
-
+.dark-data-reduction-identifying-solutions2 p,
+.dark-data-reduction-identifying-solutions1 p,
 .dark-data-reduction-methods p,
 .dark-data-reduction-silos p,
 .dark-data-reduction-discovery-tools p,
