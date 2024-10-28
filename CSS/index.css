@@ -1360,6 +1360,21 @@ footer {
   border: 1px solid #8e5cbb;
 }
 
+.links {
+  color: #8e5cbb;
+  font-size: 20px;
+  gap: 2rem;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 900;
+  line-height: 32px;
+  letter-spacing: 4px;
+  padding-top: 2rem;
+}
+
+.links:hover {
+  opacity: 0.5;
+}
+
 /* Media Queries */
 
 @media (max-width: 1500px) {
@@ -1376,6 +1391,12 @@ footer {
   }
 }
 
+@media (max-width: 1350px) {
+  .header-heading {
+    padding-top: 10rem;
+  }
+}
+
 @media (max-width: 1150px) {
   .issues {
     flex-direction: column;
@@ -1388,5 +1409,11 @@ footer {
 
   .issues-container div {
     top: -25px;
+  }
+}
+
+@media (max-width: 1060px) {
+  .nav-links {
+    flex-direction: column;
   }
 }
