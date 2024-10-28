@@ -1263,6 +1263,95 @@ footer {
   align-items: end;
 }
 
+/* Roles Page Styles */
+
+.roles-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-top: 15rem;
+}
+
+/* Roles Header */
+.roles-heading {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  flex-direction: column;
+}
+
+.roles-header {
+  color: #8e5cbb;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 32px;
+  letter-spacing: 4px;
+  font-family: "Roboto Mono", monospace;
+  text-align: end;
+  max-width: 750px;
+  position: relative;
+  z-index: 1;
+}
+
+/* Roles Details */
+.roles-details p,
+.collaboration-section p,
+.effective-collaboration-section p,
+.decision-making-section p,
+.reflection-section p {
+  color: #8e5cbb;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 32px;
+  letter-spacing: 4px;
+  font-family: "Roboto Mono", monospace;
+  text-align: start;
+  max-width: 750px;
+  position: relative;
+  z-index: 1;
+}
+
+/* Subheaders */
+.collaboration-section h2,
+.milestones-section h2,
+.effective-collaboration-section h2,
+.decision-making-section h2,
+.reflection-section h2 {
+  color: #8e5cbb;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 32px;
+  letter-spacing: 4px;
+  font-family: "Roboto Mono", monospace;
+  text-align: start;
+  max-width: 750px;
+  position: relative;
+  z-index: 1;
+}
+
+/* Milestones Table */
+.milestones-table {
+  width: 100%;
+  max-width: 750px;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.milestones-table th,
+.milestones-table td {
+  color: #8e5cbb;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 32px;
+  letter-spacing: 4px;
+  font-family: "Roboto Mono", monospace;
+  text-align: left;
+  padding: 8px 12px;
+  border: 1px solid #8e5cbb;
+}
+
 /* Media Queries */
 
 @media (max-width: 1500px) {
