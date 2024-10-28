@@ -574,7 +574,7 @@ footer {
   line-height: 32px;
   letter-spacing: 4px;
   font-family: "Roboto Mono", monospace;
-  text-align: start;
+  text-align: end;
   max-width: 750px;
   position: relative;
   z-index: 1;
@@ -590,7 +590,7 @@ footer {
   line-height: 32px;
   letter-spacing: 4px;
   font-family: "Roboto Mono", monospace;
-  text-align: start;
+  text-align: end;
   max-width: 750px;
   position: relative;
   z-index: 1;
