@@ -1312,6 +1312,7 @@ footer {
   margin: 0 auto;
   position: relative;
   z-index: 1;
+  padding-bottom: 1rem;
 }
 
 /* Subheaders */
@@ -1331,6 +1332,7 @@ footer {
   margin: 0 auto;
   position: relative;
   z-index: 1;
+  padding-bottom: 2rem;
 }
 
 .case-study {
