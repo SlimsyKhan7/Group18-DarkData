@@ -1062,7 +1062,7 @@ footer {
   max-width: 750px;
   position: relative;
   z-index: 1;
-}
+} 
 
 /* Section Styling */
 .positive-uses-organizing,
@@ -1133,32 +1133,9 @@ footer {
   z-index: 1;
 }
 
-.positive-uses-heading p {
-  color: #8e5cbb;
-  font-size: 20px;
-  font-weight: 900;
-  line-height: 32px;
-  letter-spacing: 4px;
-  font-family: "Roboto Mono", monospace;
-  text-align: end;
-  max-width: 750px;
-  position: relative;
-  z-index: 1;
-}
 
-/* Subsection Paragraph Emphasis */
-.positive-uses-lack-of-motivation p strong {
-  color: #8e5cbb;
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 32px;
-  letter-spacing: 2px;
-  font-family: "Roboto Mono", monospace;
-  text-align: start;
-  max-width: 750px;
-  position: relative;
-  z-index: 1;
-}
+
+/* Dark data history and examples */
 
 
 
