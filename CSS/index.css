@@ -6,10 +6,7 @@ html {
   margin: 0;
 }
 
-.nav-header {
-  padding: 0;
-  margin: 0;
-}
+
 
 .nav {
   display: flex;
@@ -62,6 +59,7 @@ html {
   max-width: 750px;
   position: relative;
   z-index: 1;
+  padding-bottom: 2.5rem;
 }
 
 .header {
@@ -928,6 +926,225 @@ footer {
   position: relative;
   z-index: 1;
 }
+
+/* Cloud Storage */
+
+.cloud-storage-main {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.cloud-storage-heading {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  flex-direction: column;
+}
+
+.cloud-storage-header {
+  color: #8e5cbb;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 32px;
+  letter-spacing: 4px;
+  font-family: "Roboto Mono", monospace;
+  text-align: end;
+  max-width: 750px;
+  position: relative;
+  z-index: 1;
+}
+
+.cloud-storage-parra {
+  color: #8e5cbb;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 32px;
+  letter-spacing: 4px;
+  font-family: "Roboto Mono", monospace;
+  text-align: end;
+  max-width: 900px;
+  position: relative;
+  z-index: 1;
+}
+.cloud-storage-left{
+  gap: 1rem;
+  padding: 1.5rem 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+.cloud-storage-left h2 {
+  color: #8e5cbb;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 32px;
+  letter-spacing: 4px;
+  font-family: "Roboto Mono", monospace;
+  text-align: start;
+  max-width: 750px;
+  position: relative;
+  z-index: 1;
+}
+
+.cloud-storage-left p {
+  color: #8e5cbb;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 32px;
+  letter-spacing: 4px;
+  font-family: "Roboto Mono", monospace;
+  text-align: start;
+  max-width: 750px;
+  position: relative;
+  z-index: 1;
+}
+
+/* Positive Uses of Dark Data Page */
+
+.positive-uses-dark-data {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/* Header Styling */
+.positive-uses-heading {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  flex-direction: column;
+}
+
+.positive-uses-header {
+  color: #8e5cbb;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 32px;
+  letter-spacing: 4px;
+  font-family: "Roboto Mono", monospace;
+  text-align: end;
+  max-width: 750px;
+  position: relative;
+  z-index: 1;
+}
+
+.positive-uses-introduction {
+  color: #8e5cbb;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 32px;
+  letter-spacing: 4px;
+  font-family: "Roboto Mono", monospace;
+  text-align: end;
+  max-width: 750px;
+  position: relative;
+  z-index: 1;
+}
+
+/* Section Styling */
+.positive-uses-organizing,
+.positive-uses-lack-of-motivation,
+.positive-uses-productive,
+.positive-uses-training-ai,
+.positive-uses-optimizing-manufacturing,
+.positive-uses-improving-customer-experience,
+.positive-uses-social-media {
+  gap: 1rem;
+  padding: 1.5rem 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Section Header Styles */
+.positive-uses-organizing h2,
+.positive-uses-lack-of-motivation h2,
+.positive-uses-productive h2,
+.positive-uses-training-ai h2,
+.positive-uses-optimizing-manufacturing h2,
+.positive-uses-improving-customer-experience h2,
+.positive-uses-social-media h2 {
+  color: #8e5cbb;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 32px;
+  letter-spacing: 4px;
+  font-family: "Roboto Mono", monospace;
+  text-align: start;
+  max-width: 750px;
+  position: relative;
+  z-index: 1;
+}
+
+/* Subsection Header Styles */
+.positive-uses-lack-of-motivation h3 {
+  color: #8e5cbb;
+  font-size: 26px;
+  font-weight: 900;
+  line-height: 32px;
+  letter-spacing: 4px;
+  font-family: "Roboto Mono", monospace;
+  text-align: start;
+  max-width: 750px;
+  position: relative;
+  z-index: 1;
+}
+
+/* Paragraph Styles */
+.positive-uses-organizing p,
+.positive-uses-lack-of-motivation p,
+.positive-uses-productive p,
+.positive-uses-training-ai p,
+.positive-uses-optimizing-manufacturing p,
+.positive-uses-improving-customer-experience p,
+.positive-uses-social-media p {
+  color: #8e5cbb;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 32px;
+  letter-spacing: 4px;
+  font-family: "Roboto Mono", monospace;
+  text-align: start;
+  max-width: 750px;
+  position: relative;
+  z-index: 1;
+}
+
+.positive-uses-heading p {
+  color: #8e5cbb;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 32px;
+  letter-spacing: 4px;
+  font-family: "Roboto Mono", monospace;
+  text-align: end;
+  max-width: 750px;
+  position: relative;
+  z-index: 1;
+}
+
+/* Subsection Paragraph Emphasis */
+.positive-uses-lack-of-motivation p strong {
+  color: #8e5cbb;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 2px;
+  font-family: "Roboto Mono", monospace;
+  text-align: start;
+  max-width: 750px;
+  position: relative;
+  z-index: 1;
+}
+
+
 
 /* Media Queries */
 
