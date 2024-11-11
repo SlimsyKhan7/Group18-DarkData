@@ -535,6 +535,22 @@ footer {
   z-index: 1;
 }
 
+.dark-data-reduction-identifying-solutions1,
+.dark-data-reduction-discovery-tools,
+.dark-data-reduction-methods{
+  justify-content: start;
+  align-items: start;
+}
+
+
+.dark-data-reduction-identifying-solutions2,
+.dark-data-reduction-identifying,
+.dark-data-reduction-silos{
+  justify-content: end;
+  align-items: end;
+}
+.dark-data-reduction-identifying-solutions1,
+.dark-data-reduction-identifying-solutions2,
 .dark-data-reduction-methods,
 .dark-data-reduction-silos,
 .dark-data-reduction-discovery-tools,
@@ -544,8 +560,7 @@ footer {
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: start;
-  align-items: start;
+  
 }
 
 .dark-data-reduction-methods h2,
@@ -563,23 +578,24 @@ footer {
   position: relative;
   z-index: 1;
 }
-
+.dark-data-reduction-identifying-solutions1 h3,
+.dark-data-reduction-identifying-solutions2 h3,
 .dark-data-reduction-methods h3,
 .dark-data-reduction-silos h3,
-.dark-data-reduction-discovery-tools h3,
-.dark-data-reduction-identifying h3 {
+.dark-data-reduction-discovery-tools h3 {
   color: #8e5cbb;
   font-size: 26px;
   font-weight: 900;
   line-height: 32px;
   letter-spacing: 4px;
   font-family: "Roboto Mono", monospace;
-  text-align: start;
+  text-align: end;
   max-width: 750px;
   position: relative;
   z-index: 1;
 }
-
+.dark-data-reduction-identifying-solutions2 p,
+.dark-data-reduction-identifying-solutions1 p,
 .dark-data-reduction-methods p,
 .dark-data-reduction-silos p,
 .dark-data-reduction-discovery-tools p,
@@ -590,7 +606,7 @@ footer {
   line-height: 32px;
   letter-spacing: 4px;
   font-family: "Roboto Mono", monospace;
-  text-align: start;
+  text-align: end;
   max-width: 750px;
   position: relative;
   z-index: 1;
@@ -1046,7 +1062,7 @@ footer {
   max-width: 750px;
   position: relative;
   z-index: 1;
-}
+} 
 
 /* Section Styling */
 .positive-uses-organizing,
@@ -1117,7 +1133,40 @@ footer {
   z-index: 1;
 }
 
-.positive-uses-heading p {
+
+
+/* Dark data history and examples */
+.DarkDataHistoryAndExamples{
+ 
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+ 
+}
+
+.DarkDataHistoryHeader {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  flex-direction: column;
+}
+
+.DarkDataHistoryTitle {
+  color: #8e5cbb;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 32px;
+  letter-spacing: 4px;
+  font-family: "Roboto Mono", monospace;
+  text-align: end;
+  max-width: 750px;
+  position: relative;
+  z-index: 1;
+}
+
+.Dark-Data-History-introduction {
   color: #8e5cbb;
   font-size: 20px;
   font-weight: 900;
@@ -1130,13 +1179,12 @@ footer {
   z-index: 1;
 }
 
-/* Subsection Paragraph Emphasis */
-.positive-uses-lack-of-motivation p strong {
+.DarkDataAppearance h2 {
   color: #8e5cbb;
-  font-size: 20px;
-  font-weight: 700;
+  font-size: 30px;
+  font-weight: 900;
   line-height: 32px;
-  letter-spacing: 2px;
+  letter-spacing: 4px;
   font-family: "Roboto Mono", monospace;
   text-align: start;
   max-width: 750px;
@@ -1144,7 +1192,194 @@ footer {
   z-index: 1;
 }
 
+/*lists styling*/
 
+.DarkDataFactors li,
+.DarkDataStructureTypes li,
+.DarkDataGenerationTypes li,
+.DarkDataAppearance li{
+  color: #8e5cbb;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 32px;
+  letter-spacing: 4px;
+  font-family: "Roboto Mono", monospace;
+  text-align: start;
+  max-width: 750px;
+  position: relative;
+  z-index: 1;
+}
+
+.DarkDataHistoryAndExamples h2 {
+  color: #8e5cbb;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 32px;
+  letter-spacing: 4px;
+  font-family: "Roboto Mono", monospace;
+  text-align: start;
+  max-width: 750px;
+  position: relative;
+  z-index: 1;
+}
+
+.DarkDataHistoryAndExamples h3 {
+  color: #8e5cbb;
+  font-size: 26px;
+  font-weight: 900;
+  line-height: 32px;
+  letter-spacing: 4px;
+  font-family: "Roboto Mono", monospace;
+  text-align: start;
+  max-width: 750px;
+  position: relative;
+  z-index: 1;
+}
+
+.DarkDataHistoryAndExamples h2 {
+  color: #8e5cbb;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 32px;
+  letter-spacing: 4px;
+  font-family: "Roboto Mono", monospace;
+  text-align: start;
+  max-width: 750px;
+  position: relative;
+  z-index: 1;
+}
+
+.DarkDataAppearance,
+.DarkDataStructureTypes{
+  justify-content: start;
+  align-items: start;
+}
+
+
+.DarkDataGenerationTypes,
+.dark-data-reduction-identifying,
+.dark-data-reduction-silos{
+  justify-content: end;
+  align-items: end;
+}
+
+/* Roles Page Styles */
+
+.roles-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/* Roles Header */
+.roles-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.roles-header {
+  color: #8e5cbb;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 32px;
+  letter-spacing: 4px;
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  max-width: 750px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+/* Roles Details */
+.roles-details p,
+.collaboration-section p,
+.effective-collaboration-section p,
+.decision-making-section p,
+.reflection-section p {
+  color: #8e5cbb;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 32px;
+  letter-spacing: 4px;
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  max-width: 750px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+  padding-bottom: 1rem;
+}
+
+/* Subheaders */
+.collaboration-section h2,
+.milestones-section h2,
+.effective-collaboration-section h2,
+.decision-making-section h2,
+.reflection-section h2 {
+  color: #8e5cbb;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 32px;
+  letter-spacing: 4px;
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  max-width: 750px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+  padding-bottom: 2rem;
+}
+
+.case-study {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/* Milestones Table */
+.milestones-table {
+  width: 100%;
+  max-width: 750px;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  margin: 0 auto;
+}
+
+.milestones-table th,
+.milestones-table td {
+  color: #8e5cbb;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 32px;
+  letter-spacing: 4px;
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  margin: 0 auto;
+  padding: 8px 12px;
+  border: 1px solid #8e5cbb;
+}
+
+.links {
+  color: #8e5cbb;
+  font-size: 20px;
+  gap: 2rem;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 900;
+  line-height: 32px;
+  letter-spacing: 4px;
+  padding-top: 2rem;
+}
+
+.links:hover {
+  opacity: 0.5;
+}
 
 /* Media Queries */
 
@@ -1162,6 +1397,12 @@ footer {
   }
 }
 
+@media (max-width: 1350px) {
+  .header-heading {
+    padding-top: 10rem;
+  }
+}
+
 @media (max-width: 1150px) {
   .issues {
     flex-direction: column;
@@ -1174,5 +1415,11 @@ footer {
 
   .issues-container div {
     top: -25px;
+  }
+}
+
+@media (max-width: 1060px) {
+  .nav-links {
+    flex-direction: column;
   }
 }
